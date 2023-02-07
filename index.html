@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <div class="menu_stroka">
+            
+            <div class="menu">
+                <h1 class="menuH">TOL <br> KOT</h1>
+                <p class="menu_text">Главная</p>
+                <p class="menu_text">Каталог</p>
+                <p class="menu_text">Распродажа</p>
+            </div>
+            <div class="icons">
+                <img src="img/heart.png" class= menu_icons alt="">
+                <img src="img/search.png" class= menu_icons alt="">
+                <img src="img/shop.png" class= menu_icons alt="">
+            </div>
+        </div>
+    </header>
+
+
+    <div class="content">
+
+
+
+
+    <!-- ниже меняющийся контент -->
+        <!-- то, что поменялось -->
+        <div class="choice_block">
+            <div class="choice_block_tag color">
+                <p class="choice_H">Цвет</p><img class="strelka" src="img/strelka.png" alt="">
+            </div>
+            <div class="galkaTextcolor galkaTextWhite"><input type="checkbox"><p>белый</p></div>
+            <div class="galkaTextcolor galkaTextBlack"><input type="checkbox"><p>чёрный</p></div>
+            <div class="choice_block_tag priceInputBlock">
+                <p class="choice_H">Цена</p><img class="strelka" src="img/strelka.png" alt="">
+            </div>
+            <div class="priceInput">
+                <div>
+                    <span class="text">от</span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span class="text">до</span>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        
+
+        <div>
+            <div class="text-field">
+                <div class="text-field__icon">
+                  <input class="text-field__input" type="search" name="search" id="search" placeholder="Поиск" >
+                  <span class="text-field__aicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" /></svg>
+                  </span>
+                </div>
+              </div>
+              
+            <div class="product_block">
+                <div class="product-item">
+                    <img src="img/shoot.jpg">
+                    <div class="product-list">
+                      <h3>Маленькое черное платье</h3>
+                        <span class="price">₽ 1999</span>
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                  </div>
+            
+            </div>
+        </div>
+    </div>
+
+<!-- то, что поменялось закончилось -->
+
+
+
+
+    <!-- подвал -->
+
+    <footer class="footer">
+            <div class="footer_contacts_block">
+                <div class="footer_contacts footer_block">
+                    <p class="footer_contacts_zag footer_zag">Контактная информация</p>
+                    <div class="footer_contacts_address">
+                        <p class="footer_contacts_address_text">г. Барнаул, Ленина, 2в, 2-этаж</p>
+                    </div>
+                </div>
+                <div class="footer_contacts_phone footer_block">
+                    <p class="footer_contacts_phone_text">8(3852)25-15-27 <br></p>
+                    <p class="footer_contacts_phone_text">8(903)947-65-27<br></p>
+                    <p class="footer_contacts_phone_text">8(961)980-51-16 <br></p>
+                    <p class="footer_contacts_phone_text">kuv_brn@bk.ru</p>
+                </div>
+            </div>
+            </div>
+            <div class="footer_social footer_block">
+                <p class="footer_social_zag footer_zag">Мы в социальных сетях</p>
+                <div class="footer_social_li"><img src="img/telegram.png" alt=""><p class="footer_social_li_text">Telegram</p></div>
+            </div>
+            
+
+    </footer>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
